@@ -32,8 +32,8 @@ Exercise 3: Insert at the beginning
 Complete Exercise 3 in the space below:
 */
 
-// const foods = ['pizza', 'cheeseburger'];  
-// console.log(foods.unshift('taco'));
+//  const foods = ['pizza', 'cheeseburger'];  
+//  console.log(foods.unshift('taco'));
 //  console.log('Exercise 3 result:', foods);
 
 
@@ -58,7 +58,7 @@ Complete Exercise 4 in the space below:
 
 // const foods = ['taco', 'pizza', 'cheeseburger'];  
 // const favFood = foods[1] ;
-// console.log('Exercise 4 result:', favfood);
+// console.log('Exercise 4 result:', favFood);
 // 
 /*
 Exercise 5: Insert an element between two others
@@ -163,15 +163,15 @@ Complete Exercise 11 in the space below:
 
 
 
-// let odds = [];
-// nums.forEach(element => { if(element % 2 != 0){ odds.push(element)}});
-//  nums.forEach(findOdds);
+//  let odds = [];
+// nums.forEach(num => { if(num % 2 != 0){ odds.push(num)}});
+// //   nums.forEach(findOdds);
 
 // function findOdds(num) {
-//    if (num % 2 === 1) {
+   // if (num % 2 != 0) {
 //       odds.push(num);
 //  }
-//  }
+//   }
 //  nums.forEach
 
 
@@ -196,21 +196,26 @@ Exercise 12: FizzBuzz with arrays
 Complete Exercise 12 in the space below: //this one also confused...
 */
 // const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
-// nums.forEach(fizzbuzz);
+// const fizz = []; const buzz = []; const fizzbuzz = [];
 
-// function fizzbuzz(num){
+
+// nums.forEach(num => {
 //    if (num % 3 === 0 && num % 5 === 0) {
-//       fizzbuzz.push(num);
-//    } else if (num %3 === 0) {
-//       fizz.push(num);
-//    } else if (num % 5 === 0) {
-//       buzz.push(num);
+//        fizzbuzz.push(num);
+//    }  if (num % 3 === 0) {
+//        fizz.push(num);
+//    } if (num % 5 === 0) {
+//        buzz.push(num);
 //    }
-// }
+// });
 
 
 
-// console.log('Exercise 12 Results:');
+
+
+
+
+//  console.log('Exercise 12 Results:');
 // console.log('  fizz:', fizz);
 // console.log('  buzz:', buzz);
 // console.log('  fizzbuzz:', fizzbuzz);
@@ -234,18 +239,18 @@ Complete Exercise 13 in the space below:
 
 //   ];
 // let numList = []
-// numList = numArrays [3]
+// numList = numArrays.length -1;
 // console.log('Exercise 13 result:', numList);
-/*
-Exercise 14: Accessing within nested arrays
+// /*
+// Exercise 14: Accessing within nested arrays
 
-1) Retrieve the number `66` from the `numArrays` array. As part of this process
-   do not alter the original `numArrays` array.
+// 1) Retrieve the number `66` from the `numArrays` array. As part of this process
+//    do not alter the original `numArrays` array.
 
-2) Assign it to a variable called `num`.
+// 2) Assign it to a variable called `num`.
 
-Complete Exercise 14 in the space below:
-*/
+// Complete Exercise 14 in the space below:
+// */
 // const numArrays = [
 //      	[100, 5, 23],
 //      	[15, 21, 72, 9],
@@ -274,7 +279,7 @@ Complete Exercise 15 in the space below:
 //         [45, 66],
 //         [7, 81, 90]
 //           ];
-// total =[];
+// total = 0;
 // numArrays.forEach(function(n) {
 //     n.forEach(function(value) {
 //         total += value;
@@ -283,5 +288,3 @@ Complete Exercise 15 in the space below:
 
 
 // console.log('Exercise 15 result:\n', total);
-
-
